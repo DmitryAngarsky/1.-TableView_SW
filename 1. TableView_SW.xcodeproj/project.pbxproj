@@ -14,6 +14,8 @@
 		CE71B614237EB2F900E39093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE71B612237EB2F900E39093 /* Main.storyboard */; };
 		CE71B616237EB2FB00E39093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE71B615237EB2FB00E39093 /* Assets.xcassets */; };
 		CE71B619237EB2FB00E39093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE71B617237EB2FB00E39093 /* LaunchScreen.storyboard */; };
+		CE74856D238580FE00CA3296 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74856C238580FE00CA3296 /* PlaceModel.swift */; };
+		CE74856F238598B700CA3296 /* NewPlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE74856E238598B700CA3296 /* NewPlaceTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE71B615237EB2FB00E39093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE71B618237EB2FB00E39093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE71B61A237EB2FB00E39093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE74856C238580FE00CA3296 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
+		CE74856E238598B700CA3296 /* NewPlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPlaceTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +65,10 @@
 				CE71B60C237EB2F900E39093 /* AppDelegate.swift */,
 				CE636B0323803E7C00763F18 /* MainViewController.swift */,
 				CE71B60E237EB2F900E39093 /* SceneDelegate.swift */,
-				CE71B612237EB2F900E39093 /* Main.storyboard */,
+				CE74856C238580FE00CA3296 /* PlaceModel.swift */,
 				CE2D686D23846D5E0080C483 /* CustomTableViewCell.swift */,
+				CE71B612237EB2F900E39093 /* Main.storyboard */,
+				CE74856E238598B700CA3296 /* NewPlaceTableViewController.swift */,
 				CE71B615237EB2FB00E39093 /* Assets.xcassets */,
 				CE71B617237EB2FB00E39093 /* LaunchScreen.storyboard */,
 				CE71B61A237EB2FB00E39093 /* Info.plist */,
@@ -141,8 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE74856F238598B700CA3296 /* NewPlaceTableViewController.swift in Sources */,
 				CE636B0423803E7C00763F18 /* MainViewController.swift in Sources */,
 				CE71B60D237EB2F900E39093 /* AppDelegate.swift in Sources */,
+				CE74856D238580FE00CA3296 /* PlaceModel.swift in Sources */,
 				CE2D686E23846D5E0080C483 /* CustomTableViewCell.swift in Sources */,
 				CE71B60F237EB2F900E39093 /* SceneDelegate.swift in Sources */,
 			);
