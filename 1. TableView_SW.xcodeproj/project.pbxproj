@@ -67,6 +67,39 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE56D19E239525AF000DDFC4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE636B0323803E7C00763F18 /* MainViewController.swift */,
+				CE74856E238598B700CA3296 /* NewPlaceTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE56D1A0239525D3000DDFC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE74856C238580FE00CA3296 /* PlaceModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE56D1A12395262E000DDFC4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				CE354BD823870F5000789784 /* StorageManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CE56D1A2239526CA000DDFC4 /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				CE2D686D23846D5E0080C483 /* CustomTableViewCell.swift */,
+			);
+			path = Table;
+			sourceTree = "<group>";
+		};
 		CE71B600237EB2F900E39093 = {
 			isa = PBXGroup;
 			children = (
@@ -88,13 +121,12 @@
 		CE71B60B237EB2F900E39093 /* 1. TableView_SW */ = {
 			isa = PBXGroup;
 			children = (
+				CE56D1A12395262E000DDFC4 /* Managers */,
+				CE56D1A0239525D3000DDFC4 /* Model */,
+				CE56D1A2239526CA000DDFC4 /* Table */,
+				CE56D19E239525AF000DDFC4 /* ViewControllers */,
 				CE71B60C237EB2F900E39093 /* AppDelegate.swift */,
 				CE71B60E237EB2F900E39093 /* SceneDelegate.swift */,
-				CE636B0323803E7C00763F18 /* MainViewController.swift */,
-				CE74856C238580FE00CA3296 /* PlaceModel.swift */,
-				CE2D686D23846D5E0080C483 /* CustomTableViewCell.swift */,
-				CE74856E238598B700CA3296 /* NewPlaceTableViewController.swift */,
-				CE354BD823870F5000789784 /* StorageManager.swift */,
 				CE71B612237EB2F900E39093 /* Main.storyboard */,
 				CE71B615237EB2FB00E39093 /* Assets.xcassets */,
 				CE71B617237EB2FB00E39093 /* LaunchScreen.storyboard */,
