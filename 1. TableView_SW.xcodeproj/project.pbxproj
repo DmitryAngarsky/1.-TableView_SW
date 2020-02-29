@@ -11,6 +11,7 @@
 		CE2D686E23846D5E0080C483 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2D686D23846D5E0080C483 /* CustomTableViewCell.swift */; };
 		CE354BD923870F5000789784 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE354BD823870F5000789784 /* StorageManager.swift */; };
 		CE636B0423803E7C00763F18 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE636B0323803E7C00763F18 /* MainViewController.swift */; };
+		CE6F9598240AF9E700AF471E /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6F9597240AF9E700AF471E /* RatingControl.swift */; };
 		CE71B60D237EB2F900E39093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71B60C237EB2F900E39093 /* AppDelegate.swift */; };
 		CE71B60F237EB2F900E39093 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE71B60E237EB2F900E39093 /* SceneDelegate.swift */; };
 		CE71B614237EB2F900E39093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE71B612237EB2F900E39093 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		CE2D686D23846D5E0080C483 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		CE354BD823870F5000789784 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		CE636B0323803E7C00763F18 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CE6F9597240AF9E700AF471E /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		CE71B609237EB2F900E39093 /* 1. TableView_SW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "1. TableView_SW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE71B60C237EB2F900E39093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE71B60E237EB2F900E39093 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				CE56D19E239525AF000DDFC4 /* ViewControllers */,
 				CE71B60C237EB2F900E39093 /* AppDelegate.swift */,
 				CE71B60E237EB2F900E39093 /* SceneDelegate.swift */,
+				CE6F9597240AF9E700AF471E /* RatingControl.swift */,
 				CE71B612237EB2F900E39093 /* Main.storyboard */,
 				CE71B615237EB2FB00E39093 /* Assets.xcassets */,
 				CE71B617237EB2FB00E39093 /* LaunchScreen.storyboard */,
@@ -254,6 +257,7 @@
 				CE636B0423803E7C00763F18 /* MainViewController.swift in Sources */,
 				CE71B60D237EB2F900E39093 /* AppDelegate.swift in Sources */,
 				CE354BD923870F5000789784 /* StorageManager.swift in Sources */,
+				CE6F9598240AF9E700AF471E /* RatingControl.swift in Sources */,
 				CE74856D238580FE00CA3296 /* PlaceModel.swift in Sources */,
 				CE2D686E23846D5E0080C483 /* CustomTableViewCell.swift in Sources */,
 				CE71B60F237EB2F900E39093 /* SceneDelegate.swift in Sources */,
